@@ -1,15 +1,5 @@
 from flask import Flask, render_template, request
 
-
-"""@babel.localeselector
-def get_locale():
-    return request.args.get("lang", "ru")
-
-
-
-app.config["BABEL_DEFAULT_LOCALE"] = "ru"
-babel = Babel(app)"""
-
 app = Flask(__name__)
 
 
