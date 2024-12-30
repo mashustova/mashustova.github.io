@@ -1,0 +1,365 @@
+@font-face {
+  font-family: 'Navigo';
+  src: url('../fonts/Navigo-Regular-Desktop.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 18px;
+  line-height: 1.6;
+  font-family: 'Roboto', sans-serif;
+}
+
+.dark-bg {
+  background-color: #102D69;
+  color: #fff;
+}
+
+.dark-bg .navbar-toggler {
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+.font-color-blue {
+  color: #102D69;
+}
+
+.btn-blue {
+  font-size: 1.15rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  background-color: #102D69;
+  border-color: #102D69;
+}
+
+.promo-text {
+  font-size: 24px;
+  opacity: .75;
+  font-family: 'Roboto', sans-serif;
+}
+
+.link-border-bottom {
+  display: inline-block;
+  padding: 0;
+  text-decoration: none;
+  line-height: 1.3;
+  border-bottom: 1px solid #6c757d;
+  transition: .4s ease;
+}
+
+.text-white.link-border-bottom {
+  border-bottom: 1px solid #fff;
+}
+
+.link-border-bottom:hover {
+  border-color: transparent;
+}
+
+.link {
+  color: rgba(255, 255, 255, .8);
+  text-decoration: none;
+  transition: .4s ease;
+  border-bottom: 1px solid rgba(255, 255, 255, .8);
+}
+
+.link:hover {
+  color: rgba(255, 255, 255, .8);
+  text-decoration: none;
+  border-color: transparent;
+}
+
+.link.link-blue {
+  color: #102D69;
+  border-color: #102D69;
+}
+
+.link.link-blue:hover {
+  color: #102D69;
+  border-color: transparent;
+}
+
+.link.link-purple {
+  color: #DFC7F2;
+  border-color: #DFC7F2;
+}
+
+.link.link-purple:hover {
+  color: #DFC7F2;
+  border-color: transparent;
+}
+
+.link.link-yellow {
+  color: #DCFF05;
+  border-color: #DCFF05;
+}
+
+.link.link-yellow:hover {
+  color: #DCFF05;
+  border-color: transparent;
+}
+
+.text-yellow {
+  color: #DCFF05 !important;
+}
+
+.logo:hover {
+  text-decoration: none;
+  transition: .4s ease;
+  opacity: .85;
+}
+
+.logo-title {
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.logo-subtitle {
+  font-size: 17px;
+  line-height: 1;
+}
+
+.story p {
+  font-size: 24px;
+  line-height: 35px;
+}
+
+.story-link {
+  color: #102D69;
+  text-decoration: none;
+  transition: .4s ease;
+  border-bottom: 2px solid #102D69;
+}
+
+.story-link:hover {
+  color: #102D69;
+  text-decoration: none;
+  border-color: transparent;
+}
+
+.greeting-text {
+  color: #DFC7F2;
+  font-family: 'Navigo', sans-serif;
+  font-weight: normal;
+}
+
+.navbar .nav-link.link-purple {
+  color: #DFC7F2 !important;
+}
+
+.navbar .nav-link.link-purple:hover {
+  color: #DFC7F2 !important;
+}
+
+.logo-right {
+  margin-left: 6px;
+}
+
+.text-blue {
+  color: #DFC7F2 !important;
+}
+
+h1.greeting-text {
+  color: #DFC7F2;
+}
+
+.btn-yellow {
+  background-color: #DCFF05;
+  color: #102D69;
+}
+
+.btn-yellow:hover {
+  background-color: #c4e004;
+  /* Немного темнее при наведении */
+  color: #102D69;
+}
+
+.navigo-font {
+  font-family: 'Navigo', sans-serif;
+  font-weight: normal;
+}
+
+.text-purple {
+  color: #DFC7F2 !important;
+}
+
+.text-white-40 {
+  color: #fff !important;
+  opacity: 0.4;
+}
+
+.position {
+  margin-left: 20px;
+}
+
+body.dark-theme {
+  background-color: #121212;
+  /* Фон страницы */
+  color: #e0e0e0;
+  /* Основной текст */
+}
+
+/* Если фон был белым */
+body.dark-theme .bg-white {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+body.dark-theme .dark-bg {
+  background-color: #081a34;
+  color: #ffffff;
+}
+
+body.dark-theme .bg-yellow {
+  background-color: #4c3f00;
+  color: #ffffff;
+}
+
+/* Кнопки */
+body.dark-theme .btn-blue {
+  background-color: #081a34;
+  /* Тёмно-синий */
+  border-color: #081a34;
+  color: #ffffff;
+}
+
+body.dark-theme .btn-blue:hover {
+  background-color: #0a2248;
+  /* Ещё темнее при наведении */
+  color: #ffffff;
+}
+
+body.dark-theme .btn-yellow {
+  background-color: #333333;
+  /* Тёмно-серый */
+  color: #ffffff;
+}
+
+body.dark-theme .btn-yellow:hover {
+  background-color: #373636;
+}
+
+/* Ссылки */
+body.dark-theme a {
+  color: #80d8ff;
+  /* Светло-голубой */
+}
+
+body.dark-theme a:hover {
+  color: #40c4ff;
+  /* Ярко-голубой при наведении */
+}
+
+/* Промо-блок */
+body.dark-theme .promo {
+  background-color: #05152b;
+  /* Тёмно-синий */
+  color: #ffffff;
+}
+
+.theme-toggle {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 100px;
+  /* Увеличим ширину кнопки для иконки и круга */
+  height: 30px;
+  background-color: #c4e004;
+  border-radius: 15px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  /* Выравнивание по левому краю */
+  padding: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.theme-toggle.dark {
+  background-color: #333;
+}
+
+.theme-icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  /* Размер для иконки */
+  height: 30px;
+  /* background-color: white;*/
+  border-radius: 50%;
+  /* Сделаем иконку круглой */
+  transition: background-color 0.3s ease;
+}
+
+.theme-toggle.dark .theme-icon-container {
+  background-color: #333;
+  /* Темный фон для контейнера в темной теме */
+}
+
+.theme-toggle .theme-icon {
+  color: #102D69;
+  /* Цвет иконки в светлой теме */
+  font-size: 18px;
+}
+
+.theme-toggle.dark .theme-icon {
+  color: white;
+  /* Цвет иконки в темной теме */
+}
+
+.theme-toggle .toggle-circle {
+  width: 20px;
+  height: 20px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+  margin-left: 10px;
+  /* Бегунок с отступом от иконки */
+}
+
+.theme-toggle.dark .toggle-circle {
+  transform: translateX(30px);
+  /* Бегунок двигается вправо */
+}
+
+
+/* Контейнер, в котором будет и фото, и текст с кнопкой */
+.greeting-container {
+  display: flex;
+  /* Используем Flexbox для горизонтального выравнивания */
+  align-items: center;
+  /* Вертикальное выравнивание по центру */
+  gap: 30px;
+  /* Увеличиваем расстояние между фото и текстом */
+}
+
+/* Фотография */
+.profile-photo {
+  width: 200px;
+  /* Размер фотографии, можно увеличить */
+  height: 200px;
+  /* Размер фотографии */
+  object-fit: cover;
+  /* Обрезка фото для правильных пропорций */
+}
+
+/* Блок с текстом и кнопкой */
+.greeting-text-container {
+  display: flex;
+  flex-direction: column;
+  /* Вертикальное расположение текста и кнопки */
+  gap: 10px;
+  /* Увеличиваем расстояние между текстом и кнопкой */
+}
